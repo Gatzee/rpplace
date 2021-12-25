@@ -1,0 +1,305 @@
+<meta>
+    <oop>true</oop>
+    <export function="IsGPSEnabled" type="client" />
+    <export function="GetNavigationList" type="client" />
+    <export function="GetLocationsList" type="client" />
+    <export function="FindClosestLocation" type="client" />
+
+    <script src="CHelp.lua" type="client" />
+    <script src="CHelp_Data.lua" type="client" />
+    <script src="CHelp_Updates.lua" type="client" />
+    <script src="CHelp_Navigation.lua" type="client" />
+
+    <script src="SHelp.lua" />
+
+    <file src="img/bg_container.png" />
+    <file src="img/bg_header.png" />
+    <file src="img/bg_left.png" />
+    <file src="img/body_bottom_gradient.png" />
+    <file src="img/btn_find_near.png" />
+    <file src="img/btn_show_on_map.png" />
+    <file src="img/header_line_active.png" />
+    <file src="img/icon_dots.png" />
+    <file src="img/btn_find_own_businesses.png" />
+    <file src="img/btn_remove_navigation.png" />
+    <file src="img/icon_triangle.png" />
+    <file src="img/btn_more.png" />
+    <file src="img/btn_point.png" />
+    <file src="img/btn_teleport.png" />
+    <file src="img/btn_more_i.png" />
+    <file src="img/btn_more_h.png" />
+
+    <file src="img/items/info/keyboard.png" />
+
+    <file src="img/bg_hover.png" />
+    <file src="img/bg_selected.png" />
+
+    <!-- Контент -->
+    <file src="img/items/content/apartments_1.png" />
+    <file src="img/items/content/armiya.png" />
+    <file src="img/items/content/clan_base.png" />
+    <file src="img/items/content/cartel_1.png" />
+    <file src="img/items/content/cartel_2.png" />
+    <file src="img/items/content/hash_laboratory.png" />
+    <file src="img/items/content/boutique_1.png" />
+    <file src="img/items/content/boutique_2.png" />
+    <file src="img/items/content/business_1.png" />
+    <file src="img/items/content/business_2.png" />
+    <file src="img/items/content/business_carsell.png" />
+    <file src="img/items/content/business_drugstore.png" />
+    <file src="img/items/content/business_flowers.png" />
+    <file src="img/items/content/business_gasstation.png" />
+    <file src="img/items/content/business_hotel_nsk.png" />
+    <file src="img/items/content/business_hypermarket.png" />
+    <file src="img/items/content/business_ipshop.png" />
+    <file src="img/items/content/business_repairstore.png" />
+    <file src="img/items/content/business_shop.png" />
+    <file src="img/items/content/business_smallshop.png" />
+    <file src="img/items/content/business_tradecentre.png" />
+    <file src="img/items/content/businesses_center.png" />
+
+    <file src="img/items/content/business_school.png" />
+    <file src="img/items/content/business_catering.png" />
+    <file src="img/items/content/business_tuning.png" />
+    <file src="img/items/content/business_cinema.png" />
+    <file src="img/items/content/business_bank.png" />
+
+    <file src="img/items/content/business_apart_hotel_gorki.png" />
+    <file src="img/items/content/business_apart_hotel_nsk.png" />
+    <file src="img/items/content/business_bus_depot.png" />
+    <file src="img/items/content/business_construction.png" />
+    <file src="img/items/content/business_grk_airport.png" />
+    <file src="img/items/content/business_hotel_gorki.png" />
+    <file src="img/items/content/business_hotel_ukraine.png" />
+    <file src="img/items/content/business_moskovsky_port.png" />
+    <file src="img/items/content/business_nsk_airport.png" />
+    <file src="img/items/content/business_oter_marriott.png" />
+    <file src="img/items/content/business_plant.png" />
+    <file src="img/items/content/business_private_dump.png" />
+    <file src="img/items/content/business_private_parking.png" />
+    <file src="img/items/content/business_private_warehouse.png" />
+    <file src="img/items/content/business_strip_club.png" />
+    <file src="img/items/content/business_transport_service.png" />
+    <file src="img/items/content/business_tuning_common.png" />
+    <file src="img/items/content/business_clothing_store.png" />
+    <file src="img/items/content/business_gun_shop.png" />
+    <file src="img/items/content/business_moscow_central_bank.png" />
+    <file src="img/items/content/business_railway_station.png" />
+    <file src="img/items/content/business_shipyard.png" />
+    <file src="img/items/content/business_tretyakov_gallery.png" />
+    <file src="img/items/content/business_workshop.png" />
+    <file src="img/items/content/business_sawmill.png" />
+
+    <file src="img/items/content/carsell_1.png" />
+    <file src="img/items/content/carsell_2.png" />
+    <file src="img/items/content/carsell_3.png" />
+    <file src="img/items/content/carsell_4.png" />
+    <file src="img/items/content/carsell_5.png" />
+    <file src="img/items/content/cartrade_1.png" />
+    <file src="img/items/content/cartrade_2_econom.png" />
+    <file src="img/items/content/cartrade_2_lux.png" />
+    <file src="img/items/content/casino_1.png" />
+    <file src="img/items/content/cinema_1.png" />
+    <file src="img/items/content/courier_1.png" />
+    <file src="img/items/content/courier_2.png" />
+    <file src="img/items/content/dancing_school.png" />
+    <file src="img/items/content/strip_club.png" />
+    <file src="img/items/content/driver_1.png" />
+    <file src="img/items/content/drivingschool_1.png" />
+    <file src="img/items/content/f_dps.png" />
+    <file src="img/items/content/f_medics.png" />
+    <file src="img/items/content/f_pps.png" />
+    <file src="img/items/content/f_mayor.png" />
+    <file src="img/items/content/f_fsin.png" />
+    <file src="img/items/content/farmer_1.png" />
+    <file src="img/items/content/fight_club.png" />
+    <file src="img/items/content/food_1.png" />
+    <file src="img/items/content/gasstation_1.png" />
+    <file src="img/items/content/gasstation_2.png" />
+    <file src="img/items/content/hobby_fishing.png" />
+    <file src="img/items/content/hobby_fishingstore.png" />
+    <file src="img/items/content/hobby_hunting.png" />
+    <file src="img/items/content/hobby_huntingstore.png" />
+    <file src="img/items/content/hobby_digging.png" />
+    <file src="img/items/content/hobby_diggingstore.png" />
+    <file src="img/items/content/loader_1.png" />
+    <file src="img/items/content/loader_2.png" />
+    <file src="img/items/content/race_basis.png" />
+    <file src="img/items/content/race_drag.png" />
+    <file src="img/items/content/race_drift_time.png" />
+    <file src="img/items/content/repairstore_1.png" />
+    <file src="img/items/content/taxi_1.png" />
+    <file src="img/items/content/trucker_1.png" />
+    <file src="img/items/content/hcs.png" />
+    <file src="img/items/content/tuning_1.png" />
+    <file src="img/items/content/sim-carts.png" />
+    <file src="img/items/content/urgent_military.png" />
+    <file src="img/items/content/business_circus.png" />
+    <file src="img/items/content/fines.png" />
+    <file src="img/items/content/weapon_store.png" />
+    <file src="img/items/content/inventory.png" />
+
+    <file src="img/items/content/air_market.png" />
+    <file src="img/items/content/air_school.png" />
+    <file src="img/items/content/air_workshop.png" />
+
+    <file src="img/items/content/boat_market.png" />
+    <file src="img/items/content/boat_school.png" />
+    <file src="img/items/content/boat_workshop.png" />
+
+    <file src="img/items/content/mechanic.png" />
+    <file src="img/items/content/park_employee.png" />
+    <file src="img/items/content/woodcutter.png" />
+
+    <file src="img/items/content/towtrucker.png" />
+    <file src="img/items/content/incasator.png" />
+    <file src="img/items/content/trashman.png" />
+    <file src="img/items/content/delivery_cars.png" />
+    <file src="img/items/content/house_sale.png" />
+    <file src="img/items/content/industrial_fishing.png" />
+    <file src="img/items/content/hijack_cars.png" />
+
+    <file src="img/items/content/wedding.png" />
+	
+	<!-- Обновления -->
+	<file src="img/items/updates/02_01_20/1.png" />
+	<file src="img/items/updates/02_01_20/2.png" />
+	<file src="img/items/updates/02_01_20/3.png" />
+	<file src="img/items/updates/02_01_20/4.png" />
+	<file src="img/items/updates/02_01_20/5.png" />
+	<file src="img/items/updates/02_01_20/6.png" />
+	
+	<file src="img/items/updates/09_01_20/1.png" />
+	<file src="img/items/updates/09_01_20/2.png" />
+	<file src="img/items/updates/09_01_20/3.png" />
+	
+	<file src="img/items/updates/16_01_20/1.png" />
+	<file src="img/items/updates/16_01_20/2.png" />
+	<file src="img/items/updates/16_01_20/3.png" />
+	<file src="img/items/updates/16_01_20/4.png" />
+	<file src="img/items/updates/16_01_20/5.png" />
+	
+	<file src="img/items/updates/17_12_19/1.png" />
+	<file src="img/items/updates/17_12_19/2.png" />
+	<file src="img/items/updates/17_12_19/3.png" />
+	<file src="img/items/updates/17_12_19/4.png" />
+	<file src="img/items/updates/17_12_19/5.png" />
+	<file src="img/items/updates/17_12_19/6.png" />
+	
+	<file src="img/items/updates/23_01_20/1.png" />
+	<file src="img/items/updates/23_01_20/2.png" />
+	<file src="img/items/updates/23_01_20/3.png" />
+	<file src="img/items/updates/23_01_20/4.png" />
+	<file src="img/items/updates/23_01_20/5.png" />
+	
+	<file src="img/items/updates/apartments/1.png" />
+	<file src="img/items/updates/apartments/2.png" />
+	<file src="img/items/updates/apartments/3.png" />
+	<file src="img/items/updates/apartments/4.png" />
+	<file src="img/items/updates/apartments/5.png" />
+	<file src="img/items/updates/apartments/6.png" />
+	<file src="img/items/updates/apartments/7.png" />
+	
+	<file src="img/items/updates/halloween/1.png" />
+	<file src="img/items/updates/halloween/2.png" />
+	<file src="img/items/updates/halloween/3.png" />
+	<file src="img/items/updates/halloween/4.png" />
+	<file src="img/items/updates/halloween/5.png" />
+	<file src="img/items/updates/halloween/6.png" />
+	<file src="img/items/updates/halloween/7.png" />
+	<file src="img/items/updates/halloween/8.png" />
+	<file src="img/items/updates/halloween/9.png" />
+	<file src="img/items/updates/halloween/10.png" />
+	
+	<file src="img/items/updates/new_year_19/1.png" />
+	<file src="img/items/updates/new_year_19/2.png" />
+	<file src="img/items/updates/new_year_19/3.png" />
+	<file src="img/items/updates/new_year_19/4.png" />
+	<file src="img/items/updates/new_year_19/5.png" />
+	<file src="img/items/updates/new_year_19/6.png" />
+	<file src="img/items/updates/new_year_19/7.png" />
+	<file src="img/items/updates/new_year_19/8.png" />
+	<file src="img/items/updates/new_year_19/9.png" />
+	<file src="img/items/updates/new_year_19/10.png" />
+	
+	<file src="img/items/updates/phone/1.png" />
+	<file src="img/items/updates/phone/2.png" />
+	<file src="img/items/updates/phone/3.png" />
+	<file src="img/items/updates/phone/4.png" />
+	<file src="img/items/updates/phone/5.png" />
+	<file src="img/items/updates/phone/6.png" />
+	<file src="img/items/updates/phone/7.png" />
+	<file src="img/items/updates/phone/8.png" />
+	<file src="img/items/updates/phone/9.png" />
+	
+	<file src="img/items/updates/project_birthday/1.png" />
+	<file src="img/items/updates/project_birthday/2.png" />
+	<file src="img/items/updates/project_birthday/3.png" />
+	<file src="img/items/updates/project_birthday/4.png" />
+	<file src="img/items/updates/project_birthday/5.png" />
+	<file src="img/items/updates/project_birthday/6.png" />
+	<file src="img/items/updates/project_birthday/7.png" />
+	<file src="img/items/updates/project_birthday/8.png" />
+	
+	<file src="img/items/updates/region_number/1.png" />
+	<file src="img/items/updates/region_number/2.png" />
+	<file src="img/items/updates/region_number/3.png" />
+	<file src="img/items/updates/region_number/4.png" />
+	<file src="img/items/updates/region_number/5.png" />
+	<file src="img/items/updates/region_number/6.png" />
+	
+	<file src="img/items/updates/rublevo/1.png" />
+	<file src="img/items/updates/rublevo/2.png" />
+	<file src="img/items/updates/rublevo/3.png" />
+	<file src="img/items/updates/rublevo/4.png" />
+	<file src="img/items/updates/rublevo/5.png" />
+	<file src="img/items/updates/rublevo/6.png" />
+	<file src="img/items/updates/rublevo/7.png" />
+	<file src="img/items/updates/rublevo/8.png" />
+	
+	<file src="img/items/updates/snow_19/1.png" />
+	<file src="img/items/updates/snow_19/2.png" />
+	<file src="img/items/updates/snow_19/3.png" />
+	<file src="img/items/updates/snow_19/4.png" />
+	<file src="img/items/updates/snow_19/5.png" />
+	<file src="img/items/updates/snow_19/6.png" />
+	<file src="img/items/updates/snow_19/7.png" />
+	
+	<file src="img/items/updates/towtrucker/1.png" />
+	
+	<file src="img/items/updates/towtrucker_try_2/1.png" />
+	<file src="img/items/updates/towtrucker_try_2/7.png" />
+	
+	<file src="img/items/updates/tab_aero.png" />
+	<file src="img/items/updates/tab_boats.png" />
+	<file src="img/items/updates/tab_businesses.png" />
+	<file src="img/items/updates/tab_cinema.png" />
+	<file src="img/items/updates/tab_countryhouse.png" />
+	<file src="img/items/updates/tab_daily_quests.png" />
+	<file src="img/items/updates/tab_diamond_case.png" />
+	<file src="img/items/updates/tab_dices.png" />
+	<file src="img/items/updates/tab_dps_fines.png" />
+	<file src="img/items/updates/tab_fast_and_furious.png" />
+	<file src="img/items/updates/tab_fisher.png" />
+	<file src="img/items/updates/tab_gallardo.png" />
+	<file src="img/items/updates/tab_gang_wars.png" />
+	<file src="img/items/updates/tab_gde_obnova_suka.png" />
+	<file src="img/items/updates/tab_hcs_1.png" />
+	<file src="img/items/updates/tab_hcs_2.png" />
+	<file src="img/items/updates/tab_hcs_3.png" />
+	<file src="img/items/updates/tab_hcs_4.png" />
+	<file src="img/items/updates/tab_hobby_digging.png" />
+	<file src="img/items/updates/tab_hunting.png" />
+	<file src="img/items/updates/tab_map.png" />
+	<file src="img/items/updates/tab_mayoralty.png" />
+	<file src="img/items/updates/tab_moto.png" />
+	<file src="img/items/updates/tab_newmap.png" />
+	<file src="img/items/updates/tab_pilot.png" />
+	<file src="img/items/updates/tab_roulette.png" />
+	<file src="img/items/updates/tab_taxi.png" />
+    
+	<file src="sfx/camry3.5.mp3" />
+	<file src="sfx/get_low.mp3" />
+	<file src="sfx/hhd.ogg" />
+	<file src="sfx/relock_one_love.mp3" />
+</meta>
